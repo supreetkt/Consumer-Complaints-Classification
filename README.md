@@ -6,21 +6,21 @@ Github has a file limit size of 100MB and I pre-trained models and saved them so
 
 So, before running anything, set up the repo and complete the missing files. The architecture should look like this:
 
-Consumer-Complaints-Classification
--> app FOLDER
+Consumer-Complaints-Classification Project
+1. app FOLDER
 - contains services, static and templates. This is for flask. Also contains main.py, used to run the application.
 
--> data FOLDER
+2. data FOLDER
 - contains the main dataset and a subfolder modified. Modified folder contains all the intermediary csvs used to reduce processing each time the code is run.
 - vocab_trained_word2Vec.csv - contains the output of word2vec model
 - output_consumer_complaints.csv - contains the preprocessed and cleaned set of words using the clean_up function
 
--> trained_models FOLDER
+3. trained_models FOLDER
 - Contains GoogleNews-vectors-negative300.bin, which can be downloaded online through the link I provided
 - 300features_10minwords_10context  (attached in google drive) - word2Vec model created by using the training set
 - rf_word2vec_model_6530 (attached in google drive) - The random Forest model, which uses word2Vec and has an accuracy of 65.30%
 
--> src  FOLDER - contains one notebook and one py file. Both have the same code.
+4. src  FOLDER - contains one notebook and one py file. Both have the same code.
 
 - For any help in running the code, shoot me an email. I’ll be happy to help.
 
