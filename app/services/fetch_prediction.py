@@ -7,6 +7,7 @@ import pandas as pd
 from stop_words import get_stop_words
 from nltk.corpus import wordnet as wn
 from gensim.models.keyedvectors import KeyedVectors
+import gensim
 warnings.filterwarnings("ignore")
 import os
 
@@ -97,7 +98,8 @@ def process_text(complaint):
         return "Sorry, your complaint contains words on which the model isn't trained. Time to call a human."
 
     print("Loading Word2Vec model...")
-    word2vec_model = KeyedVectors.load_word2vec_format('../trained_models/GoogleNews-vectors-negative300.bin', binary=True)
+    #word2vec_model = KeyedVectors.load_word2vec_format('../trained_models/GoogleNews-vectors-negative300.bin', binary=True)
+    word2vec_model = gensim.models.Word2Vec.load("trained_models/300features_10minwords_10context1")
 
     print("Getting embeddings...")
     embeddings = get_average_word2vec(cleaned_complaint, word2vec_model, num_features)
