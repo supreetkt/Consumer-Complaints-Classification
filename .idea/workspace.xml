@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96a8a436-eaab-4cd3-b0a2-6c4166dad780" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/services/fetch_prediction.py" afterPath="$PROJECT_DIR$/app/services/fetch_prediction.py" />
-      <change beforePath="$PROJECT_DIR$/src/consumer_complaints.ipynb" afterPath="$PROJECT_DIR$/src/consumer_complaints.ipynb" />
+      <change beforePath="$PROJECT_DIR$/src/consumer_complaints.ipynb" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,9 +16,11 @@
       <file leaf-file-name="fetch_prediction.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/services/fetch_prediction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1162">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="51" />
-              <folding />
+            <state relative-caret-position="502">
+              <caret line="112" column="48" lean-forward="true" selection-start-line="112" selection-start-column="48" selection-end-line="112" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,9 +189,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/fetch_prediction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1162">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="51" />
-          <folding />
+        <state relative-caret-position="502">
+          <caret line="112" column="48" lean-forward="true" selection-start-line="112" selection-start-column="48" selection-end-line="112" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
