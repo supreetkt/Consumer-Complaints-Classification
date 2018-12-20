@@ -69,7 +69,7 @@ english_stopwords = list(set(english_stopwords))
 def get_wordnet_pos(word):
     """
     Function that determines the the Part-of-speech (POS) tag.
-    Acts as input to lemmatizer
+    Acts as input to lemmatizer. Result is of the form: [('complaint', 'NN'), ... ]
     """
     if word.startswith('N'):
         return wn.NOUN
